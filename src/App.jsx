@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { jsPDF } from "jspdf";
 import * as pdfjsLib from "pdfjs-dist";
 import { GlobalWorkerOptions } from "pdfjs-dist";
-import pdfjsWorker from "pdfjs-dist/build/pdf.worker.js?url";
+import pdfjsWorker from "pdfjs-dist/build/pdf.worker.min.js?url";
 
 // Sæt pdf.js worker
 GlobalWorkerOptions.workerSrc = pdfjsWorker;
